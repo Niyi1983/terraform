@@ -61,7 +61,7 @@ vpc_security_group_ids = [aws_security_group.demotf_security_group.id]
 associate_public_ip_address = true
 
 tags = {
-  Name = "niyitf-instance"
+  Name = "niyiterraform-instance"
 }
 }
 
